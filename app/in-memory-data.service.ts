@@ -3,16 +3,16 @@ import { InMemoryDbService } from 'angular-in-memory-web-api';
 export class InMemoryDataService implements InMemoryDbService {
    createDb() {
     let heroes = [
-      {id: 11, name: 'Mr. Nice'},
-      {id: 12, name: 'Narco'},
-      {id: 13, name: 'Bombasto'},
-      {id: 14, name: 'Celeritas'},
-      {id: 15, name: 'Magneta'},
-      {id: 16, name: 'RubberMan'},
-      {id: 17, name: 'Dynama'},
-      {id: 18, name: 'Dr IQ'},
-      {id: 19, name: 'Magma'},
-      {id: 20, name: 'Tornado'}
+      {id: 1, name: 'Aaron Rodgers'},
+      {id: 2, name: 'Brett Favre'},
+      {id: 3, name: 'Bart Starr'},
+      {id: 4, name: 'Reggie White'},
+      {id: 5, name: 'LeRoy Butler'},
+      {id: 6, name: 'Vince Lombardi'},
+      {id: 7, name: 'Ray Nitsche'},
+      {id: 8, name: 'Frozen Tundra'},
+      {id: 9, name: 'Mom'},
+      {id: 0, name: 'Dad'}
     ];
     return {heroes};
   }
